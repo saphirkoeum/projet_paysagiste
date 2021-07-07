@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jo Paysagiste</title>
+      <!-- Google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- fontawesome script -->
+    <script src="https://kit.fontawesome.com/e206f53c0e.js" crossorigin="anonymous"></script>
+      <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head> 
+  <body>
+    <!------------------------------------------------ NAV BAR ------------------------------------------------>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="images/jo_logo.png" alt="logo de Jo" width="150px">
+          </a>
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#realisation">Les réalisations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!------------------------------------------------ FIN NAV BAR------------------------------------------------>
+  <!------------------------------------------------ JUMBOTRON ------------------------------------------------>
+    <div class="jumbotron text-white my-5">
+      <div class="container-fluid d-flex justify-content-around text-center py-5">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-6 lead fw-bold text">Jo</h1>
+          </div>
+          <div class="col-12">
+            <h2 class="display-6 lead fw-bold text">révèle l’âme de vos espaces extérieurs</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------ FIN JUMBOTRON ------------------------------------------------>
+    <!------------------------------------------------ PRESENTATION------------------------------------------------>
+    <section id="presentation" class="container-fluid p-5">
+      <div class="row text-justify" >
+        <div class="col-xl-7 col-md-12 col-sm-12 bg bg-white">
+          <h4 class="py-3">Je réalise tous vos projets situés dans la région Ile-de-France</h4>
+          <p>Passionnés de botanique et soucieux de chaque détail, je ne me contente pas de créer et rénover des jardins et terrasses ; Je leurs donnent véritablement vie, mêlant avec finesse le végétal, le minéral, l'eau et les lumières pour sublimer vos espaces extérieurs.</p>
+          <p>Faites appel à  un professionnel pour vos travaux : </p>
+          <p>Aménagement de jardin et de terrasses, création de pelouse , clôture , bassin , plantation d’arbres et de massifs.</p>
+          <h4 class="col">Entretien des espaces verts</h4>
+          <p class="col text-justify">Entretien des massifs , taille de haies, élagage, abattage, embellissement, tonte, ramassage de feuilles ... 
+          </p>
+        </div>
+        <div class="col-xl-5 col-md-12 col-sm-12">
+          <img src="images/9.jpeg" class="img-fluid" alt="" width="auto">
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------ FIN PRESENTATION ------------------------------------------------>
+    <!------------------------------------------------ REALISATION ------------------------------------------------>
+    <section id="realisation" class="container-fluid d-flex justify-content-center p-5">
+        <div class="row text-justify">
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/1.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/2.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/3.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/4.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/5.jpeg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-12">
+            <img src="images/6.jpeg" class="img-fluid" alt="...">
+          </div>
+        </div>
+    </section>
+    <!------------------------------------------------ FIN REALISATION ------------------------------------------------>
+    <!------------------------------------------------ CONTACT ------------------------------------------------>
+    <section id="contacts" class="container-fluid p-5">
+      <div class="row">
+        <div id="contactform" class="col-xl-7 col-md-12 col-sm-12 bg bg-white border border-secondary">
+          <h2 class="text-center font-weight-bold py-2">Contactez-nous !</h2>
+            <form  action="https://formspree.io/" method="POST">
+              <div class="mb-3">
+                <label class="form-text" for="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Veuillez saisir votre nom">
+              </div>
+              <div class="mb-3">
+                <label class="form-text" for="prenom">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Veuillez saisir votre prénom">
+              </div>
+              <div class="mb-3">
+                <label class="form-text" for="tel">Téléphone</label>
+                <input type="tel" class="form-control" id="tel" placeholder="Veuillez saisir votre n° de téléphone">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" placeholder="Veuillez saisir votre e-mail" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Votre message ici" id="floatingTextarea2" style="height: 210px"></textarea>
+                <label for="floatingTextarea2">Votre message</label>
+              </div>
+              <div class="d-grid my-3">
+                <button type="button">Envoyer</button>
+              </div>
+          </form>
+        </div>
+        <div class="col-xl-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722614872!2d2.2770205573570017!3d48.8588377395569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1625646087897!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+      </div>
+    </section>
+    <!---------------------------------------- FOOTER ---------------------------------------->
+    <footer class="container-fluid py-5">
+      <div class="row d-flex align-items-center">
+        <p class="col-md-10">&copy; Jo Baobab</p>
+        <div class="col-md-2 d-flex justify-content-around">
+          <p><a class="fab fa-facebook-square" href="https://www.facebook.com/ghettupfr"></a></p>
+          <p><a class="fab fa-twitter-square" href="https://twitter.com/ghettup?lang=fr"></a></p>
+          <p><a class="fab fa-instagram-square" href="https://www.instagram.com/ghettup_/"></a></p>
+          <p><a class="fab fa-linkedin" href="https://www.linkedin.com/company/ghett%27up/"></a></p>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
