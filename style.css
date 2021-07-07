@@ -94,5 +94,14 @@ footer a{
 }
 footer a:hover{
   color: #81a84b;
+  border: 1px solid #81a84b;
+
 }
 /* END OF FOOTER */
+
+@media (min-width: 0px) and (max-width : 1200px){
+  .img-fluid, iframe {
+    margin-top: 20px;  
+}
+}
+
