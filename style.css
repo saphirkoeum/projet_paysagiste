@@ -60,7 +60,7 @@ h1{
   background-color: #DBDBDB;
 }
 /* CONTACT FORM */
-#contactform{
+#contactform, input, textarea {
   border-radius: 5px;
 }
 form input {
